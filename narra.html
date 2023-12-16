@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conserving Nature Initiative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <section class="wiki-header">
+        <nav>
+            <a href="index.html"><img src="images/LOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="exit-outline" onclick="hideMenu()" class="fa"></ion-icon>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">The Team</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="FAQ.html">FAQs</a></li>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showMenu()" class="fa"></ion-icon>
+        </nav>
+    </section>
+    <section class="wikitree">
+       <a href="index.html#plant-trees"> <h1> Narra Tree</h1></a>
+        <div class="row">
+            <div class="wiki-col">
+                <div>
+                    <span> 
+                        <h5>Tree Overview</h5>
+                        <p>Pterocarpus indicus (commonly known as Amboyna wood, Malay padauk, Papua New Guinea rosewood, Philippine mahogany, Andaman redwood, Burmese rosewood, narra[3] (from Tagalog[4]) and asana in the Philippines, angsana, or Pashu padauk) is a species of Pterocarpus native to southeastern Asia, northern Australasia, and the western Pacific Ocean islands, in Cambodia, southernmost China, East Timor, Indonesia, Malaysia,[5] Papua New Guinea, the Philippines, the Ryukyu Islands, the Solomon Islands, Thailand, and Vietnam.[6] </p>
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                        <h5>How does the Tree look like?</h5>
+                        <p>It is a large deciduous tree growing to 30–40 m tall, with a trunk up to 2 m diameter. The leaves are 12–22 cm long, pinnate, with 5–11 leaflets, the girth is 12–34 m wide. The flowers are produced in panicles 6–13 cm long containing a few to numerous flowers; flowering is from February to May in the Philippines, Borneo and the Malay peninsula.
+
+                            They are slightly fragrant and have yellow or orange-yellow petals. The fruit is a semiorbicular pod 2–3 cm diameter, surrounded by a flat 4–6 cm diameter membranaceous wing (wing-like structure) which aids dispersal by the wind. It contains one or two seeds, and does not split open at maturity; it ripens within 4–6 years, and becomes purple when dry. The central part of the pod can be smooth (f. indica), bristly (f. echinatus (Pers.) Rojo) or intermediate.[9][10]</p>
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                        <h5>Uses</h5>
+                        <p>The hardwood, which is purplish, is termite-resistant and rose-scented. The wood known in Indonesia as amboyna is the burl of the tree, named after Ambon, where much of this material was originally found. Often amboyna is finely sliced to produce an extremely decorative veneer, used for decoration and in making of furniture and keys on a marimba. It is a premium timber species suitable for high grade furniture, lumber and plywood for light construction purposes. It is also used for cartwheels, wood carving and musical instruments.[11]</p>
+                    </span>
+                </div>
+            </div>
+            <div class="wiki-col">
+                <img src="images/narra.png">
+            </div>
+        </div>
+</section>
+
+
+<!--footer-->
+<footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+   </div>
+   <div class="left-content">
+    <ul class="social-icon">
+        <li><a href="https://www.facebook.com/onetreeplanted/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/onetreeplanted?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="mailto:cni.dgte@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/onetreeplanted/?hl=en"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="team.html">The Team</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="FAQ.html">FAQs</a></li>
+    </ul>
+</div>
+    <p>
+        ©2023 Conserving Nature Initiative | All Rights Reserved
+    </p>
+</footer>
+
+
+<!----JS for hamburger---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

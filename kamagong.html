@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conserving Nature Initiative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <section class="wiki-header">
+        <nav>
+            <a href="index.html"><img src="images/LOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="exit-outline" onclick="hideMenu()" class="fa"></ion-icon>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">The Team</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="FAQ.html">FAQs</a></li>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showMenu()" class="fa"></ion-icon>
+        </nav>
+    </section>
+    <section class="wikitree">
+       <a href="index.html#plant-trees"> <h1> Kamagong Tree</h1></a>
+        <div class="row">
+            <div class="wiki-col">
+                <div>
+                    <span> 
+                        <h5>Tree Overview</h5>
+                        <p>Diospyros blancoi, (synonym Diospyros discolor), commonly known as velvet apple, velvet persimmon, kamagong, or mabolo tree,[1] is a tree of the genus Diospyros of ebony trees and persimmons. It produces edible fruit with a fine, velvety, reddish-brown fur-like covering. The fruit has a soft, creamy, pink flesh, with a taste and aroma comparable to peaches.[2] It is widely distributed and native to the Philippines, but it is also native to eastern and southern Taiwan.[3][1][4] It has also been introduced to other parts of Southeast Asia, the Pacific Islands, South Asia, the Caribbean, Florida, and other tropical regions.[5] </p>
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                        <h5>How does the Tree look like?</h5>
+                        <p>It is a dioecious tropical tree that grows well in a diversity of soil, from sea level to 750 metres (2,400 ft) above sea level. Seed trees are normally planted 10–15 metres (30–45 ft) from each other; this one can be planted from 7.5–9 metres (25–30 ft) from each other. It needs a good distribution of rainfall through the year. Trees that were planted by seeds could take 6 or 7 years to give out fruit, but trees that were propagated by cuttings produce fruit in 3 or 4 years. It is a very productive tree.[citation needed] The fact that fruits vary greatly – in shape, color, hairiness and taste – suggests that there is a great deal of genetic variation in the plant. Seedless cultivars exist, and are highly favored since in the normal varieties the large seeds occupy a considerable volume of the fruit.</p>
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                        <h5>Uses</h5>
+                        <p>The dark wood is suitable for carvings. The wood of the kamagong is used for making furniture, cabinets, laying canes, tool handles, finger boards and violins, drawing instruments, and shuttle and bobbins. The tree is often planted for its rather sweet but dry edible fruits, and also as a roadside tree.</p>
+                    </span>
+                </div>
+            </div>
+            <div class="wiki-col">
+                <img src="images/kamagong.jpg">
+            </div>
+        </div>
+</section>
+
+
+<!--footer-->
+<footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+   </div>
+   <div class="left-content">
+    <ul class="social-icon">
+        <li><a href="https://www.facebook.com/onetreeplanted/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/onetreeplanted?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="mailto:cni.dgte@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/onetreeplanted/?hl=en"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="team.html">The Team</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="FAQ.html">FAQs</a></li>
+    </ul>
+</div>
+    <p>
+        ©2023 Conserving Nature Initiative | All Rights Reserved
+    </p>
+</footer>
+
+
+
+
+<!----JS for hamburger---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conserving Nature Initiative</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body class="faq">
+        <nav>
+            <a href="index.html"><img src="images/logoV5.PNG"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="exit-outline" onclick="hideMenu()" class="fa"></ion-icon>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">The Team</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="FAQ.html">FAQs</a></li>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showMenu()" class="fa"></ion-icon>
+        </nav>
+        <div class="container">
+            <h1>Donation Form</h1>
+            <h3>1 Seed = 300 Pesos </h3>
+            <form class="form cf">
+                <section class="plan cf">
+                    <h2>Choose a sapling:</h2>
+                    <input type="radio" name="radio1" id="free" value="free"><label class="free-label four col" for="free">Coconut</label>
+                    <input type="radio" name="radio1" id="basic" value="basic" checked><label class="basic-label four col" for="basic">Narra</label>
+                    <input type="radio" name="radio1" id="premium" value="premium"><label class="premium-label four col" for="premium">Kamagong</label>
+                </section>
+                <section class="payment-plan cf">
+                    <h2>Select an amount of seeds:</h2>
+                    <input type="radio" name="radio2" id="monthly" value="monthly" checked><label class="monthly-label four col" for="monthly">1 Seed </label>
+                    <input type="radio" name="radio2" id="yearly" value="yearly"><label class="yearly-label four col" for="yearly">25 Seeds  </label>
+                    <input type="radio" name="radio2" id="lifetime" value="lifetime"><label class="lifetime-label four col" for="lifetime">100 Seeds </label>
+                </section>
+                <section class="payment-type cf">
+                    <h2>Select a payment type:</h2>
+                    <input type="radio" name="radio3" id="credit" value="credit"><label class="credit-label four col" for="credit">Credit Card</label>
+                    <input type="radio" name="radio3" id="debit" value="debit"><label class="debit-label four col" for="debit">Gcash</label>
+                    <input type="radio" name="radio3" id="paypal" value="paypal" checked><label class="paypal-label four col" for="paypal">Paypal</label>
+                </section>
+                <a href="gcash.html" class="donate-btn">submit</a>
+            </form>
+        </div>
+
+    </body>
+</html>

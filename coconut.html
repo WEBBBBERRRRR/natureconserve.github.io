@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conserving Nature Initiative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <section class="wiki-header">
+        <nav>
+            <a href="index.html"><img src="images/LOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="exit-outline" onclick="hideMenu()" class="fa"></ion-icon>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="team.html">The Team</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="FAQ.html">FAQs</a></li>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showMenu()" class="fa"></ion-icon>
+        </nav>
+    </section>
+    <section class="wikitree">
+       <a href="index.html#plant-trees"> <h1> Coconut Tree</h1></a>
+        <div class="row">
+            <div class="wiki-col">
+                <div>
+                    <span> 
+                        <h5>Tree Overview</h5>
+                        <p>Coconut palm, (Cocos nucifera), palm of the family Arecaceae, cultivated extensively in tropical areas for its edible fruit, the coconut. Coconut palms are found in tropical coastal areas nearly worldwide and probably originated somewhere in Indo-Malaya. </p>
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                        <h5>How does the Tree look like?</h5>
+                        <p>The slender, leaning, ringed trunk of the coconut palm rises to a height of up to 25 metres (80 feet) from a swollen base and is surmounted by a graceful crown of giant featherlike leaves. Mature fruits, ovoid or ellipsoid in shape, 300–450 mm (12–18 inches) in length and 150–200 mm (6–8 inches) in diameter, have a thick fibrous husk surrounding the familiar single-seeded nut of commerce. A hard shell encloses the insignificant embryo with its abundant endosperm, composed of both meat and liquid. Coconut fruits float readily and have been dispersed widely by ocean currents and by humans throughout the tropics.</p>
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                        <h5>Uses</h5>
+                        <p>Coconut flesh is high in fat and can be dried or eaten fresh. The liquid of the green nut, commonly known as coconut water, can be consumed fresh and is used in beverages. The harvested coconut also yields copra, the dried extracted kernel, or meat, from which coconut oil, a major vegetable oil, is expressed. The Philippines, India, and Indonesia are major copra producers, and throughout the South Pacific copra is one of the most important export products. The meat may also be grated and usually mixed with water to make coconut milk, used in cooking and as a substitute for cow’s milk. The dry husk yields coir, a fibre highly resistant to salt water and used in the manufacture of ropes, mats, baskets, brushes, and brooms.</p>
+                    </span>
+                </div>
+            </div>
+            <div class="wiki-col">
+                <img src="images/coconut.jpg">
+            </div>
+        </div>
+</section>
+
+
+<!--footer-->
+<footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+   </div>
+   <div class="left-content">
+    <ul class="social-icon">
+        <li><a href="https://www.facebook.com/onetreeplanted/"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/onetreeplanted?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="mailto:cni.dgte@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/onetreeplanted/?hl=en"><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="team.html">The Team</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="FAQ.html">FAQs</a></li>
+    </ul>
+</div>
+    <p>
+        ©2023 Conserving Nature Initiative | All Rights Reserved
+    </p>
+</footer>
+
+
+<!----JS for hamburger---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>    
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
