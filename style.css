@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/banner.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(banner.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -343,7 +343,7 @@ h3{
 .cta{
     margin: 80px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/banner2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(banner2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -436,7 +436,7 @@ footer .wave{
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(images/wave.png);
+    background: url(wave.png);
     background-size: 1000px 100px;
 }
 
@@ -509,7 +509,7 @@ footer .wave#wave4{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(48, 45, 45, 0.7),rgba(48, 45, 45, 0.7)),url(images/2.jpg);
+    background-image: linear-gradient(rgba(48, 45, 45, 0.7),rgba(48, 45, 45, 0.7)),url(2.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -704,7 +704,7 @@ footer .wave#wave4{
 .subs-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(48, 45, 45, 0.7),rgba(48, 45, 45, 0.7)),url(images/stand.jpg);
+    background-image: linear-gradient(rgba(48, 45, 45, 0.7),rgba(48, 45, 45, 0.7)),url(stand.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -774,7 +774,7 @@ footer .wave#wave4{
 
 /* coconutwiki */
 .wiki-header{
-    background-image: linear-gradient(rgba(48, 45, 45, 0.7),rgba(48, 45, 45, 0.7)),url(images/2.jpg);
+    background-image: linear-gradient(rgba(48, 45, 45, 0.7),rgba(48, 45, 45, 0.7)),url(2.jpg);
 
 }
 .wikitree{
